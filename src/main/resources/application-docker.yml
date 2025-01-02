@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: ordrsmart-api
+  datasource:
+    username: ordrsmartuser
+    password: ordrsmartpwd
+    url: jdbc:postgresql://postgres:5432/ordrsmartdb
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true

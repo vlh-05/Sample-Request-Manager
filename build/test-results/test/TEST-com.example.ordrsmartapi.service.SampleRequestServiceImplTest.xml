@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.ordrsmartapi.service.SampleRequestServiceImplTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-06-23T18:34:57" hostname="Haindavis-MacBook-Air.local" time="0.041">
+  <properties/>
+  <testcase name="test createSampleRequestById invalid product()" classname="com.example.ordrsmartapi.service.SampleRequestServiceImplTest" time="0.035"/>
+  <testcase name="test createSampleRequestById invalid variant()" classname="com.example.ordrsmartapi.service.SampleRequestServiceImplTest" time="0.001"/>
+  <testcase name="test getSampleRequestById found()" classname="com.example.ordrsmartapi.service.SampleRequestServiceImplTest" time="0.001"/>
+  <testcase name="test getSampleRequestById not found()" classname="com.example.ordrsmartapi.service.SampleRequestServiceImplTest" time="0.001"/>
+  <testcase name="test createSampleRequestById success()" classname="com.example.ordrsmartapi.service.SampleRequestServiceImplTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
